@@ -1,0 +1,946 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E7092901F32B95B00C56F6D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E70928F1F32B95B00C56F6D /* main.m */; };
+		0E7092931F32B95B00C56F6D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E7092921F32B95B00C56F6D /* AppDelegate.m */; };
+		0E7092961F32B95B00C56F6D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E7092951F32B95B00C56F6D /* ViewController.m */; };
+		0E7092991F32B95B00C56F6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E7092971F32B95B00C56F6D /* Main.storyboard */; };
+		0E70929B1F32B95B00C56F6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E70929A1F32B95B00C56F6D /* Assets.xcassets */; };
+		0E70929E1F32B95B00C56F6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E70929C1F32B95B00C56F6D /* LaunchScreen.storyboard */; };
+		0E7092A91F32B95B00C56F6D /* CircleOfFriendsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E7092A81F32B95B00C56F6D /* CircleOfFriendsTests.m */; };
+		0E7092B41F32B95B00C56F6D /* CircleOfFriendsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E7092B31F32B95B00C56F6D /* CircleOfFriendsUITests.m */; };
+		0E7092C71F32C26700C56F6D /* YMCircleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E7092C61F32C26700C56F6D /* YMCircleViewController.m */; };
+		0E7092CC1F32CB6500C56F6D /* UIView+YMExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E7092CB1F32CB6500C56F6D /* UIView+YMExtension.m */; };
+		0E7092CF1F32CC4A00C56F6D /* YMCircleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E7092CE1F32CC4A00C56F6D /* YMCircleCell.m */; };
+		0E7092D31F32D35800C56F6D /* Foundation+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E7092D21F32D35800C56F6D /* Foundation+Log.m */; };
+		0E7092D61F32D4A000C56F6D /* YMFamilyGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E7092D51F32D4A000C56F6D /* YMFamilyGroup.m */; };
+		0E7092D91F32D55100C56F6D /* YMFamilyGroupFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E7092D81F32D55100C56F6D /* YMFamilyGroupFrame.m */; };
+		0E7092DC1F32D59C00C56F6D /* YMStringSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E7092DB1F32D59C00C56F6D /* YMStringSize.m */; };
+		0E7092DF1F32F9DB00C56F6D /* YMConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E7092DE1F32F9DB00C56F6D /* YMConst.m */; };
+		0E70933F1F33017900C56F6D /* 范冰冰.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E7093311F33017900C56F6D /* 范冰冰.png */; };
+		0E7093401F33017900C56F6D /* 高圆圆.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E7093321F33017900C56F6D /* 高圆圆.png */; };
+		0E7093411F33017900C56F6D /* 林峰.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E7093331F33017900C56F6D /* 林峰.png */; };
+		0E7093421F33017900C56F6D /* addPictures.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E7093341F33017900C56F6D /* addPictures.png */; };
+		0E7093431F33017900C56F6D /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0E7093351F33017900C56F6D /* background.jpg */; };
+		0E7093441F33017900C56F6D /* buttonSend@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E7093361F33017900C56F6D /* buttonSend@2x.png */; };
+		0E7093451F33017900C56F6D /* headicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E7093371F33017900C56F6D /* headicon.png */; };
+		0E7093461F33017900C56F6D /* location.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E7093381F33017900C56F6D /* location.png */; };
+		0E7093471F33017900C56F6D /* picture1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E7093391F33017900C56F6D /* picture1.png */; };
+		0E7093481F33017900C56F6D /* picture2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E70933A1F33017900C56F6D /* picture2.png */; };
+		0E7093491F33017900C56F6D /* picture3.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E70933B1F33017900C56F6D /* picture3.png */; };
+		0E70934A1F33017900C56F6D /* picture4.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E70933C1F33017900C56F6D /* picture4.png */; };
+		0E70934B1F33017900C56F6D /* reply.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E70933D1F33017900C56F6D /* reply.png */; };
+		0E70934C1F33017900C56F6D /* seen.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E70933E1F33017900C56F6D /* seen.png */; };
+		0E70934F1F33058A00C56F6D /* YMPhotoGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E70934E1F33058A00C56F6D /* YMPhotoGroup.m */; };
+		0E7093521F3306F900C56F6D /* YMPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E7093511F3306F900C56F6D /* YMPhoto.m */; };
+		0E70935B1F331ACC00C56F6D /* SDBrowserImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E7093551F331ACC00C56F6D /* SDBrowserImageView.m */; };
+		0E70935C1F331ACC00C56F6D /* SDPhotoBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E7093571F331ACC00C56F6D /* SDPhotoBrowser.m */; };
+		0E70935D1F331ACC00C56F6D /* SDWaitingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E70935A1F331ACC00C56F6D /* SDWaitingView.m */; };
+		0E7093601F332CB500C56F6D /* YMCommentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E70935F1F332CB500C56F6D /* YMCommentCell.m */; };
+		0E7D77261F341043005CDA5A /* YMCommentFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E7D77251F341043005CDA5A /* YMCommentFrame.m */; };
+		0E7D77281F347DAA005CDA5A /* FamilyGroup.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0E7D77271F347DAA005CDA5A /* FamilyGroup.plist */; };
+		34CBA6B78E4A2FF842E0C1B6 /* libPods-CircleOfFriendsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E05A965317FD61FB0518143 /* libPods-CircleOfFriendsTests.a */; };
+		67D17E520DF0C5986026D27D /* libPods-CircleOfFriends.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 83CBBFD508DE971A63126D4C /* libPods-CircleOfFriends.a */; };
+		9156DE7C5CFBA78E35EF6D32 /* libPods-CircleOfFriendsUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5812189F7DD3C25C6988E151 /* libPods-CircleOfFriendsUITests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0E7092A51F32B95B00C56F6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0E7092831F32B95B00C56F6D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0E70928A1F32B95B00C56F6D;
+			remoteInfo = CircleOfFriends;
+		};
+		0E7092B01F32B95B00C56F6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0E7092831F32B95B00C56F6D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0E70928A1F32B95B00C56F6D;
+			remoteInfo = CircleOfFriends;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E70928B1F32B95B00C56F6D /* CircleOfFriends.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CircleOfFriends.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E70928F1F32B95B00C56F6D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0E7092911F32B95B00C56F6D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0E7092921F32B95B00C56F6D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0E7092941F32B95B00C56F6D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0E7092951F32B95B00C56F6D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0E7092981F32B95B00C56F6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0E70929A1F32B95B00C56F6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0E70929D1F32B95B00C56F6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0E70929F1F32B95B00C56F6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E7092A41F32B95B00C56F6D /* CircleOfFriendsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CircleOfFriendsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E7092A81F32B95B00C56F6D /* CircleOfFriendsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CircleOfFriendsTests.m; sourceTree = "<group>"; };
+		0E7092AA1F32B95B00C56F6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E7092AF1F32B95B00C56F6D /* CircleOfFriendsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CircleOfFriendsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E7092B31F32B95B00C56F6D /* CircleOfFriendsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CircleOfFriendsUITests.m; sourceTree = "<group>"; };
+		0E7092B51F32B95B00C56F6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E7092C51F32C26700C56F6D /* YMCircleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMCircleViewController.h; sourceTree = "<group>"; };
+		0E7092C61F32C26700C56F6D /* YMCircleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMCircleViewController.m; sourceTree = "<group>"; };
+		0E7092C81F32C9A900C56F6D /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		0E7092CA1F32CB6500C56F6D /* UIView+YMExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+YMExtension.h"; sourceTree = "<group>"; };
+		0E7092CB1F32CB6500C56F6D /* UIView+YMExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+YMExtension.m"; sourceTree = "<group>"; };
+		0E7092CD1F32CC4A00C56F6D /* YMCircleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMCircleCell.h; sourceTree = "<group>"; };
+		0E7092CE1F32CC4A00C56F6D /* YMCircleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMCircleCell.m; sourceTree = "<group>"; };
+		0E7092D21F32D35800C56F6D /* Foundation+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Foundation+Log.m"; sourceTree = "<group>"; };
+		0E7092D41F32D4A000C56F6D /* YMFamilyGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMFamilyGroup.h; sourceTree = "<group>"; };
+		0E7092D51F32D4A000C56F6D /* YMFamilyGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMFamilyGroup.m; sourceTree = "<group>"; };
+		0E7092D71F32D55100C56F6D /* YMFamilyGroupFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMFamilyGroupFrame.h; sourceTree = "<group>"; };
+		0E7092D81F32D55100C56F6D /* YMFamilyGroupFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMFamilyGroupFrame.m; sourceTree = "<group>"; };
+		0E7092DA1F32D59C00C56F6D /* YMStringSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMStringSize.h; sourceTree = "<group>"; };
+		0E7092DB1F32D59C00C56F6D /* YMStringSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMStringSize.m; sourceTree = "<group>"; };
+		0E7092DD1F32F9DB00C56F6D /* YMConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMConst.h; sourceTree = "<group>"; };
+		0E7092DE1F32F9DB00C56F6D /* YMConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMConst.m; sourceTree = "<group>"; };
+		0E7093311F33017900C56F6D /* 范冰冰.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "范冰冰.png"; sourceTree = "<group>"; };
+		0E7093321F33017900C56F6D /* 高圆圆.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "高圆圆.png"; sourceTree = "<group>"; };
+		0E7093331F33017900C56F6D /* 林峰.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "林峰.png"; sourceTree = "<group>"; };
+		0E7093341F33017900C56F6D /* addPictures.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = addPictures.png; sourceTree = "<group>"; };
+		0E7093351F33017900C56F6D /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
+		0E7093361F33017900C56F6D /* buttonSend@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "buttonSend@2x.png"; sourceTree = "<group>"; };
+		0E7093371F33017900C56F6D /* headicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = headicon.png; sourceTree = "<group>"; };
+		0E7093381F33017900C56F6D /* location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = location.png; sourceTree = "<group>"; };
+		0E7093391F33017900C56F6D /* picture1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = picture1.png; sourceTree = "<group>"; };
+		0E70933A1F33017900C56F6D /* picture2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = picture2.png; sourceTree = "<group>"; };
+		0E70933B1F33017900C56F6D /* picture3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = picture3.png; sourceTree = "<group>"; };
+		0E70933C1F33017900C56F6D /* picture4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = picture4.png; sourceTree = "<group>"; };
+		0E70933D1F33017900C56F6D /* reply.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reply.png; sourceTree = "<group>"; };
+		0E70933E1F33017900C56F6D /* seen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = seen.png; sourceTree = "<group>"; };
+		0E70934D1F33058A00C56F6D /* YMPhotoGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMPhotoGroup.h; sourceTree = "<group>"; };
+		0E70934E1F33058A00C56F6D /* YMPhotoGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMPhotoGroup.m; sourceTree = "<group>"; };
+		0E7093501F3306F900C56F6D /* YMPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMPhoto.h; sourceTree = "<group>"; };
+		0E7093511F3306F900C56F6D /* YMPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMPhoto.m; sourceTree = "<group>"; };
+		0E7093541F331ACC00C56F6D /* SDBrowserImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDBrowserImageView.h; sourceTree = "<group>"; };
+		0E7093551F331ACC00C56F6D /* SDBrowserImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDBrowserImageView.m; sourceTree = "<group>"; };
+		0E7093561F331ACC00C56F6D /* SDPhotoBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDPhotoBrowser.h; sourceTree = "<group>"; };
+		0E7093571F331ACC00C56F6D /* SDPhotoBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDPhotoBrowser.m; sourceTree = "<group>"; };
+		0E7093581F331ACC00C56F6D /* SDPhotoBrowserConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDPhotoBrowserConfig.h; sourceTree = "<group>"; };
+		0E7093591F331ACC00C56F6D /* SDWaitingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWaitingView.h; sourceTree = "<group>"; };
+		0E70935A1F331ACC00C56F6D /* SDWaitingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWaitingView.m; sourceTree = "<group>"; };
+		0E70935E1F332CB500C56F6D /* YMCommentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMCommentCell.h; sourceTree = "<group>"; };
+		0E70935F1F332CB500C56F6D /* YMCommentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMCommentCell.m; sourceTree = "<group>"; };
+		0E7D77241F341043005CDA5A /* YMCommentFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMCommentFrame.h; sourceTree = "<group>"; };
+		0E7D77251F341043005CDA5A /* YMCommentFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMCommentFrame.m; sourceTree = "<group>"; };
+		0E7D77271F347DAA005CDA5A /* FamilyGroup.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = FamilyGroup.plist; sourceTree = "<group>"; };
+		213919BA77B33D1852B0D899 /* Pods-CircleOfFriendsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CircleOfFriendsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CircleOfFriendsTests/Pods-CircleOfFriendsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3391526D3722BB08755B9E1A /* Pods-CircleOfFriends.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CircleOfFriends.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CircleOfFriends/Pods-CircleOfFriends.debug.xcconfig"; sourceTree = "<group>"; };
+		5812189F7DD3C25C6988E151 /* libPods-CircleOfFriendsUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CircleOfFriendsUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E05A965317FD61FB0518143 /* libPods-CircleOfFriendsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CircleOfFriendsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6707DE0D07A981280FB6B55B /* Pods-CircleOfFriendsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CircleOfFriendsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CircleOfFriendsUITests/Pods-CircleOfFriendsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		83CBBFD508DE971A63126D4C /* libPods-CircleOfFriends.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CircleOfFriends.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BECE329510D4D7EBF8967B9F /* Pods-CircleOfFriendsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CircleOfFriendsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CircleOfFriendsUITests/Pods-CircleOfFriendsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CC6A9D3F17AA0DC00767B9C7 /* Pods-CircleOfFriends.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CircleOfFriends.release.xcconfig"; path = "Pods/Target Support Files/Pods-CircleOfFriends/Pods-CircleOfFriends.release.xcconfig"; sourceTree = "<group>"; };
+		EFEDE0DD4944E3347F3824D1 /* Pods-CircleOfFriendsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CircleOfFriendsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CircleOfFriendsTests/Pods-CircleOfFriendsTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0E7092881F32B95B00C56F6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67D17E520DF0C5986026D27D /* libPods-CircleOfFriends.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E7092A11F32B95B00C56F6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34CBA6B78E4A2FF842E0C1B6 /* libPods-CircleOfFriendsTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E7092AC1F32B95B00C56F6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9156DE7C5CFBA78E35EF6D32 /* libPods-CircleOfFriendsUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E7092821F32B95B00C56F6D = {
+			isa = PBXGroup;
+			children = (
+				0E70928D1F32B95B00C56F6D /* CircleOfFriends */,
+				0E7092A71F32B95B00C56F6D /* CircleOfFriendsTests */,
+				0E7092B21F32B95B00C56F6D /* CircleOfFriendsUITests */,
+				0E70928C1F32B95B00C56F6D /* Products */,
+				E1CB7CFE9D0BABC22D066E7C /* Pods */,
+				3044A766D92B39B4F273C1B8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0E70928C1F32B95B00C56F6D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0E70928B1F32B95B00C56F6D /* CircleOfFriends.app */,
+				0E7092A41F32B95B00C56F6D /* CircleOfFriendsTests.xctest */,
+				0E7092AF1F32B95B00C56F6D /* CircleOfFriendsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0E70928D1F32B95B00C56F6D /* CircleOfFriends */ = {
+			isa = PBXGroup;
+			children = (
+				0E7093531F331ACB00C56F6D /* SDPhotoBrowser */,
+				0E7093301F33016600C56F6D /* Images */,
+				0E7092C91F32CB5300C56F6D /* Tool */,
+				0E7092C11F32C22300C56F6D /* Class */,
+				0E7092911F32B95B00C56F6D /* AppDelegate.h */,
+				0E7092921F32B95B00C56F6D /* AppDelegate.m */,
+				0E7092941F32B95B00C56F6D /* ViewController.h */,
+				0E7092951F32B95B00C56F6D /* ViewController.m */,
+				0E7092971F32B95B00C56F6D /* Main.storyboard */,
+				0E70929A1F32B95B00C56F6D /* Assets.xcassets */,
+				0E70929C1F32B95B00C56F6D /* LaunchScreen.storyboard */,
+				0E70929F1F32B95B00C56F6D /* Info.plist */,
+				0E70928E1F32B95B00C56F6D /* Supporting Files */,
+			);
+			path = CircleOfFriends;
+			sourceTree = "<group>";
+		};
+		0E70928E1F32B95B00C56F6D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0E7D77271F347DAA005CDA5A /* FamilyGroup.plist */,
+				0E7092D21F32D35800C56F6D /* Foundation+Log.m */,
+				0E70928F1F32B95B00C56F6D /* main.m */,
+				0E7092C81F32C9A900C56F6D /* PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0E7092A71F32B95B00C56F6D /* CircleOfFriendsTests */ = {
+			isa = PBXGroup;
+			children = (
+				0E7092A81F32B95B00C56F6D /* CircleOfFriendsTests.m */,
+				0E7092AA1F32B95B00C56F6D /* Info.plist */,
+			);
+			path = CircleOfFriendsTests;
+			sourceTree = "<group>";
+		};
+		0E7092B21F32B95B00C56F6D /* CircleOfFriendsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0E7092B31F32B95B00C56F6D /* CircleOfFriendsUITests.m */,
+				0E7092B51F32B95B00C56F6D /* Info.plist */,
+			);
+			path = CircleOfFriendsUITests;
+			sourceTree = "<group>";
+		};
+		0E7092C11F32C22300C56F6D /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				0E7092C21F32C22300C56F6D /* Controller */,
+				0E7092C31F32C22300C56F6D /* Model */,
+				0E7092C41F32C22300C56F6D /* View */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		0E7092C21F32C22300C56F6D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0E7092C51F32C26700C56F6D /* YMCircleViewController.h */,
+				0E7092C61F32C26700C56F6D /* YMCircleViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0E7092C31F32C22300C56F6D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0E7092D41F32D4A000C56F6D /* YMFamilyGroup.h */,
+				0E7092D51F32D4A000C56F6D /* YMFamilyGroup.m */,
+				0E7092D71F32D55100C56F6D /* YMFamilyGroupFrame.h */,
+				0E7092D81F32D55100C56F6D /* YMFamilyGroupFrame.m */,
+				0E7093501F3306F900C56F6D /* YMPhoto.h */,
+				0E7093511F3306F900C56F6D /* YMPhoto.m */,
+				0E7D77241F341043005CDA5A /* YMCommentFrame.h */,
+				0E7D77251F341043005CDA5A /* YMCommentFrame.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0E7092C41F32C22300C56F6D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0E7092CD1F32CC4A00C56F6D /* YMCircleCell.h */,
+				0E7092CE1F32CC4A00C56F6D /* YMCircleCell.m */,
+				0E70934D1F33058A00C56F6D /* YMPhotoGroup.h */,
+				0E70934E1F33058A00C56F6D /* YMPhotoGroup.m */,
+				0E70935E1F332CB500C56F6D /* YMCommentCell.h */,
+				0E70935F1F332CB500C56F6D /* YMCommentCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0E7092C91F32CB5300C56F6D /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				0E7092CA1F32CB6500C56F6D /* UIView+YMExtension.h */,
+				0E7092CB1F32CB6500C56F6D /* UIView+YMExtension.m */,
+				0E7092DA1F32D59C00C56F6D /* YMStringSize.h */,
+				0E7092DB1F32D59C00C56F6D /* YMStringSize.m */,
+				0E7092DD1F32F9DB00C56F6D /* YMConst.h */,
+				0E7092DE1F32F9DB00C56F6D /* YMConst.m */,
+			);
+			name = Tool;
+			path = Class/Tool;
+			sourceTree = "<group>";
+		};
+		0E7093301F33016600C56F6D /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				0E7093311F33017900C56F6D /* 范冰冰.png */,
+				0E7093321F33017900C56F6D /* 高圆圆.png */,
+				0E7093331F33017900C56F6D /* 林峰.png */,
+				0E7093341F33017900C56F6D /* addPictures.png */,
+				0E7093351F33017900C56F6D /* background.jpg */,
+				0E7093361F33017900C56F6D /* buttonSend@2x.png */,
+				0E7093371F33017900C56F6D /* headicon.png */,
+				0E7093381F33017900C56F6D /* location.png */,
+				0E7093391F33017900C56F6D /* picture1.png */,
+				0E70933A1F33017900C56F6D /* picture2.png */,
+				0E70933B1F33017900C56F6D /* picture3.png */,
+				0E70933C1F33017900C56F6D /* picture4.png */,
+				0E70933D1F33017900C56F6D /* reply.png */,
+				0E70933E1F33017900C56F6D /* seen.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		0E7093531F331ACB00C56F6D /* SDPhotoBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				0E7093541F331ACC00C56F6D /* SDBrowserImageView.h */,
+				0E7093551F331ACC00C56F6D /* SDBrowserImageView.m */,
+				0E7093561F331ACC00C56F6D /* SDPhotoBrowser.h */,
+				0E7093571F331ACC00C56F6D /* SDPhotoBrowser.m */,
+				0E7093581F331ACC00C56F6D /* SDPhotoBrowserConfig.h */,
+				0E7093591F331ACC00C56F6D /* SDWaitingView.h */,
+				0E70935A1F331ACC00C56F6D /* SDWaitingView.m */,
+			);
+			path = SDPhotoBrowser;
+			sourceTree = "<group>";
+		};
+		3044A766D92B39B4F273C1B8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				83CBBFD508DE971A63126D4C /* libPods-CircleOfFriends.a */,
+				5E05A965317FD61FB0518143 /* libPods-CircleOfFriendsTests.a */,
+				5812189F7DD3C25C6988E151 /* libPods-CircleOfFriendsUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E1CB7CFE9D0BABC22D066E7C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3391526D3722BB08755B9E1A /* Pods-CircleOfFriends.debug.xcconfig */,
+				CC6A9D3F17AA0DC00767B9C7 /* Pods-CircleOfFriends.release.xcconfig */,
+				213919BA77B33D1852B0D899 /* Pods-CircleOfFriendsTests.debug.xcconfig */,
+				EFEDE0DD4944E3347F3824D1 /* Pods-CircleOfFriendsTests.release.xcconfig */,
+				BECE329510D4D7EBF8967B9F /* Pods-CircleOfFriendsUITests.debug.xcconfig */,
+				6707DE0D07A981280FB6B55B /* Pods-CircleOfFriendsUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0E70928A1F32B95B00C56F6D /* CircleOfFriends */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E7092B81F32B95B00C56F6D /* Build configuration list for PBXNativeTarget "CircleOfFriends" */;
+			buildPhases = (
+				6BBE9D6D5E93811948A239F5 /* [CP] Check Pods Manifest.lock */,
+				0E7092871F32B95B00C56F6D /* Sources */,
+				0E7092881F32B95B00C56F6D /* Frameworks */,
+				0E7092891F32B95B00C56F6D /* Resources */,
+				23B46950E3A2F579110F7DF4 /* [CP] Embed Pods Frameworks */,
+				4E6E3BCB4C34AB77331460A3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CircleOfFriends;
+			productName = CircleOfFriends;
+			productReference = 0E70928B1F32B95B00C56F6D /* CircleOfFriends.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0E7092A31F32B95B00C56F6D /* CircleOfFriendsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E7092BB1F32B95B00C56F6D /* Build configuration list for PBXNativeTarget "CircleOfFriendsTests" */;
+			buildPhases = (
+				0536AA82ACAB3CEE6F7172F0 /* [CP] Check Pods Manifest.lock */,
+				0E7092A01F32B95B00C56F6D /* Sources */,
+				0E7092A11F32B95B00C56F6D /* Frameworks */,
+				0E7092A21F32B95B00C56F6D /* Resources */,
+				823D8520451832452344A655 /* [CP] Embed Pods Frameworks */,
+				A28C56F9F781279AB035FC6C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0E7092A61F32B95B00C56F6D /* PBXTargetDependency */,
+			);
+			name = CircleOfFriendsTests;
+			productName = CircleOfFriendsTests;
+			productReference = 0E7092A41F32B95B00C56F6D /* CircleOfFriendsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0E7092AE1F32B95B00C56F6D /* CircleOfFriendsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E7092BE1F32B95B00C56F6D /* Build configuration list for PBXNativeTarget "CircleOfFriendsUITests" */;
+			buildPhases = (
+				5B7F2AF2328D5225C76C7BA0 /* [CP] Check Pods Manifest.lock */,
+				0E7092AB1F32B95B00C56F6D /* Sources */,
+				0E7092AC1F32B95B00C56F6D /* Frameworks */,
+				0E7092AD1F32B95B00C56F6D /* Resources */,
+				01880AEAA6EAC75E4AD28392 /* [CP] Embed Pods Frameworks */,
+				54D4F429D5FE1BEDDA4AB86E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0E7092B11F32B95B00C56F6D /* PBXTargetDependency */,
+			);
+			name = CircleOfFriendsUITests;
+			productName = CircleOfFriendsUITests;
+			productReference = 0E7092AF1F32B95B00C56F6D /* CircleOfFriendsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0E7092831F32B95B00C56F6D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = YM;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Andrew;
+				TargetAttributes = {
+					0E70928A1F32B95B00C56F6D = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = D47W52LW3J;
+						ProvisioningStyle = Automatic;
+					};
+					0E7092A31F32B95B00C56F6D = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0E70928A1F32B95B00C56F6D;
+					};
+					0E7092AE1F32B95B00C56F6D = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0E70928A1F32B95B00C56F6D;
+					};
+				};
+			};
+			buildConfigurationList = 0E7092861F32B95B00C56F6D /* Build configuration list for PBXProject "CircleOfFriends" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = 0E7092821F32B95B00C56F6D;
+			productRefGroup = 0E70928C1F32B95B00C56F6D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0E70928A1F32B95B00C56F6D /* CircleOfFriends */,
+				0E7092A31F32B95B00C56F6D /* CircleOfFriendsTests */,
+				0E7092AE1F32B95B00C56F6D /* CircleOfFriendsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0E7092891F32B95B00C56F6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E7093431F33017900C56F6D /* background.jpg in Resources */,
+				0E7093401F33017900C56F6D /* 高圆圆.png in Resources */,
+				0E70934C1F33017900C56F6D /* seen.png in Resources */,
+				0E7093441F33017900C56F6D /* buttonSend@2x.png in Resources */,
+				0E7093481F33017900C56F6D /* picture2.png in Resources */,
+				0E7093491F33017900C56F6D /* picture3.png in Resources */,
+				0E70933F1F33017900C56F6D /* 范冰冰.png in Resources */,
+				0E7093461F33017900C56F6D /* location.png in Resources */,
+				0E7093421F33017900C56F6D /* addPictures.png in Resources */,
+				0E7093411F33017900C56F6D /* 林峰.png in Resources */,
+				0E7093471F33017900C56F6D /* picture1.png in Resources */,
+				0E70929E1F32B95B00C56F6D /* LaunchScreen.storyboard in Resources */,
+				0E7D77281F347DAA005CDA5A /* FamilyGroup.plist in Resources */,
+				0E7093451F33017900C56F6D /* headicon.png in Resources */,
+				0E70929B1F32B95B00C56F6D /* Assets.xcassets in Resources */,
+				0E70934B1F33017900C56F6D /* reply.png in Resources */,
+				0E7092991F32B95B00C56F6D /* Main.storyboard in Resources */,
+				0E70934A1F33017900C56F6D /* picture4.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E7092A21F32B95B00C56F6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E7092AD1F32B95B00C56F6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		01880AEAA6EAC75E4AD28392 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CircleOfFriendsUITests/Pods-CircleOfFriendsUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0536AA82ACAB3CEE6F7172F0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		23B46950E3A2F579110F7DF4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CircleOfFriends/Pods-CircleOfFriends-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E6E3BCB4C34AB77331460A3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CircleOfFriends/Pods-CircleOfFriends-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		54D4F429D5FE1BEDDA4AB86E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CircleOfFriendsUITests/Pods-CircleOfFriendsUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B7F2AF2328D5225C76C7BA0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6BBE9D6D5E93811948A239F5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		823D8520451832452344A655 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CircleOfFriendsTests/Pods-CircleOfFriendsTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A28C56F9F781279AB035FC6C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CircleOfFriendsTests/Pods-CircleOfFriendsTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0E7092871F32B95B00C56F6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E70935C1F331ACC00C56F6D /* SDPhotoBrowser.m in Sources */,
+				0E7092DF1F32F9DB00C56F6D /* YMConst.m in Sources */,
+				0E7092961F32B95B00C56F6D /* ViewController.m in Sources */,
+				0E7092D31F32D35800C56F6D /* Foundation+Log.m in Sources */,
+				0E7092CF1F32CC4A00C56F6D /* YMCircleCell.m in Sources */,
+				0E70935B1F331ACC00C56F6D /* SDBrowserImageView.m in Sources */,
+				0E7092931F32B95B00C56F6D /* AppDelegate.m in Sources */,
+				0E7092C71F32C26700C56F6D /* YMCircleViewController.m in Sources */,
+				0E70934F1F33058A00C56F6D /* YMPhotoGroup.m in Sources */,
+				0E7092901F32B95B00C56F6D /* main.m in Sources */,
+				0E7092D91F32D55100C56F6D /* YMFamilyGroupFrame.m in Sources */,
+				0E7092DC1F32D59C00C56F6D /* YMStringSize.m in Sources */,
+				0E7093601F332CB500C56F6D /* YMCommentCell.m in Sources */,
+				0E7D77261F341043005CDA5A /* YMCommentFrame.m in Sources */,
+				0E7092CC1F32CB6500C56F6D /* UIView+YMExtension.m in Sources */,
+				0E7092D61F32D4A000C56F6D /* YMFamilyGroup.m in Sources */,
+				0E7093521F3306F900C56F6D /* YMPhoto.m in Sources */,
+				0E70935D1F331ACC00C56F6D /* SDWaitingView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E7092A01F32B95B00C56F6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E7092A91F32B95B00C56F6D /* CircleOfFriendsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E7092AB1F32B95B00C56F6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E7092B41F32B95B00C56F6D /* CircleOfFriendsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0E7092A61F32B95B00C56F6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0E70928A1F32B95B00C56F6D /* CircleOfFriends */;
+			targetProxy = 0E7092A51F32B95B00C56F6D /* PBXContainerItemProxy */;
+		};
+		0E7092B11F32B95B00C56F6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0E70928A1F32B95B00C56F6D /* CircleOfFriends */;
+			targetProxy = 0E7092B01F32B95B00C56F6D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0E7092971F32B95B00C56F6D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E7092981F32B95B00C56F6D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0E70929C1F32B95B00C56F6D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E70929D1F32B95B00C56F6D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0E7092B61F32B95B00C56F6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0E7092B71F32B95B00C56F6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0E7092B91F32B95B00C56F6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3391526D3722BB08755B9E1A /* Pods-CircleOfFriends.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = D47W52LW3J;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/CircleOfFriends/PrefixHeader.pch";
+				INFOPLIST_FILE = CircleOfFriends/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LJJ.CircleOfFriends;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0E7092BA1F32B95B00C56F6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC6A9D3F17AA0DC00767B9C7 /* Pods-CircleOfFriends.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = D47W52LW3J;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/CircleOfFriends/PrefixHeader.pch";
+				INFOPLIST_FILE = CircleOfFriends/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LJJ.CircleOfFriends;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0E7092BC1F32B95B00C56F6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 213919BA77B33D1852B0D899 /* Pods-CircleOfFriendsTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CircleOfFriendsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LJJ.CircleOfFriendsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CircleOfFriends.app/CircleOfFriends";
+			};
+			name = Debug;
+		};
+		0E7092BD1F32B95B00C56F6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFEDE0DD4944E3347F3824D1 /* Pods-CircleOfFriendsTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CircleOfFriendsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LJJ.CircleOfFriendsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CircleOfFriends.app/CircleOfFriends";
+			};
+			name = Release;
+		};
+		0E7092BF1F32B95B00C56F6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BECE329510D4D7EBF8967B9F /* Pods-CircleOfFriendsUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = CircleOfFriendsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LJJ.CircleOfFriendsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CircleOfFriends;
+			};
+			name = Debug;
+		};
+		0E7092C01F32B95B00C56F6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6707DE0D07A981280FB6B55B /* Pods-CircleOfFriendsUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = CircleOfFriendsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LJJ.CircleOfFriendsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CircleOfFriends;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0E7092861F32B95B00C56F6D /* Build configuration list for PBXProject "CircleOfFriends" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E7092B61F32B95B00C56F6D /* Debug */,
+				0E7092B71F32B95B00C56F6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E7092B81F32B95B00C56F6D /* Build configuration list for PBXNativeTarget "CircleOfFriends" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E7092B91F32B95B00C56F6D /* Debug */,
+				0E7092BA1F32B95B00C56F6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E7092BB1F32B95B00C56F6D /* Build configuration list for PBXNativeTarget "CircleOfFriendsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E7092BC1F32B95B00C56F6D /* Debug */,
+				0E7092BD1F32B95B00C56F6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E7092BE1F32B95B00C56F6D /* Build configuration list for PBXNativeTarget "CircleOfFriendsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E7092BF1F32B95B00C56F6D /* Debug */,
+				0E7092C01F32B95B00C56F6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0E7092831F32B95B00C56F6D /* Project object */;
+}
